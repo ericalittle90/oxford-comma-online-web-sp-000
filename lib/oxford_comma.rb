@@ -5,6 +5,6 @@ elsif array.size == 2
   array.join(" and ")
 elsif array.size > 2
   array.insert(-1, " and ")
-  array.join(",")
+  array.join(',')
 end
 end
