@@ -4,6 +4,6 @@ if array.count == 1
   elsif array.count == 2
   array.split("and")
 elsif array.count == 3
-  array.split(",")
+  array.split(",").insert(2, "and")
 end
 end
